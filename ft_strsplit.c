@@ -98,4 +98,4 @@ char		**ft_strsplit(char const *s, char c)
 	ft_count_chars(s, c, j, nb_words, tab);
 	ft_fill(s, c, tab);
 	return (tab);
-
+}
